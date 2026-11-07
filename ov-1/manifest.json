@@ -1,0 +1,23 @@
+{
+  "name": "Kinhaus Room Node OV-1 presence + climate (ESP32-C6)",
+  "version": "1.2.0",
+  "home_assistant_domain": "esphome",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "ota": {
+        "path": "https://acewood619.github.io/kinhaus-firmware/ov-1/firmware.ota.bin",
+        "md5": "078bc869e0cce62849bf22d92f45a586",
+        "summary": "Automatic updates from GitHub; more API connections for Kinhaus Link",
+        "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-1"
+      },
+      "parts": [
+        {
+          "path": "https://acewood619.github.io/kinhaus-firmware/ov-1/firmware.factory.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
