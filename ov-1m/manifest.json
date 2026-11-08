@@ -1,6 +1,6 @@
 {
   "name": "Kinhaus Room Node OV-1M (XIAO ESP32-C6, modules)",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,8 +8,8 @@
       "chipFamily": "ESP32-S3",
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-1m/firmware.ota.bin",
-        "md5": "9e51229da06faf58b93c6313337de1fe",
-        "summary": "Automatic updates from GitHub; more API connections for Kinhaus Link",
+        "md5": "f32923ec3ead22d492e497fbf21aacb5",
+        "summary": "Hardening: never downgrade, RAM fix, radar Bluetooth off, faster Wi-Fi, factory Self Test",
         "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-1m"
       },
       "parts": [

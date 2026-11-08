@@ -1,6 +1,6 @@
 {
   "name": "Kinhaus Room Node OV-DK1 dev kit (XIAO ESP32-C6, INMP441, AHT20/BMP280)",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,8 +8,8 @@
       "chipFamily": "ESP32-C6",
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-dk1/firmware.ota.bin",
-        "md5": "283f3c8d528c9546d51892bff346da92",
-        "summary": "Automatic updates from GitHub; more API connections for Kinhaus Link",
+        "md5": "6813739412e67ff9e8dc3b84ae3e0da9",
+        "summary": "Hardening: never downgrade, RAM fix, radar Bluetooth off, faster Wi-Fi, factory Self Test",
         "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-dk1"
       },
       "parts": [
