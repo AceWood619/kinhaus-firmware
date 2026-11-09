@@ -1,6 +1,6 @@
 {
   "name": "Kinhaus Room Node OV-2M voice (XIAO ESP32-S3, modules)",
-  "version": "1.3.3",
+  "version": "1.4.1",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,8 +8,8 @@
       "chipFamily": "ESP32-S3",
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-2m/firmware.ota.bin",
-        "md5": "837e84f854921d3ea22742ac67eafe61",
-        "summary": "Radar Bluetooth (HLK app) toggle with 30 min auto-off; hardening from 1.3.2",
+        "md5": "21fc5e219e866ba9e5df7e5ef9185192",
+        "summary": "Encrypted connection: Home Assistant gives each node its own key; radar unit fixes for HA 2027.5",
         "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-2m"
       },
       "parts": [
