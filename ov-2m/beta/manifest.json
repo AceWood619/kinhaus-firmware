@@ -1,6 +1,6 @@
 {
   "name": "Kinhaus Room Node OV-2M voice (XIAO ESP32-S3, modules)",
-  "version": "1.5.0-beta3",
+  "version": "1.5.0-beta4",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,8 +8,8 @@
       "chipFamily": "ESP32-S3",
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-2m/beta/firmware.ota.bin",
-        "md5": "d0d3ff232da78028e6ac4be9f7cd6a08",
-        "summary": "Beta: Update channel select; beta check at boot",
+        "md5": "a74949e0d0dfbb53389a1121defab00a",
+        "summary": "Beta: Update channel; beta check staggered from stable",
         "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-2m"
       },
       "parts": [
