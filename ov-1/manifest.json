@@ -1,6 +1,6 @@
 {
   "name": "Kinhaus Room Node OV-1 presence + climate (ESP32-C6)",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,8 +8,8 @@
       "chipFamily": "ESP32-S3",
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-1/firmware.ota.bin",
-        "md5": "9ca535a0dc5a031b1259917c846f490c",
-        "summary": "Hardening: never downgrade, RAM fix, radar Bluetooth off, faster Wi-Fi, factory Self Test",
+        "md5": "7f67e25ab5d8c2ee0a8abc5c335dc8f6",
+        "summary": "Radar Bluetooth (HLK app) toggle with 30 min auto-off; hardening from 1.3.2",
         "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-1"
       },
       "parts": [

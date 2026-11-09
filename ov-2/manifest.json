@@ -1,6 +1,6 @@
 {
   "name": "Kinhaus Room Node OV-2 voice (ESP32-S3)",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,8 +8,8 @@
       "chipFamily": "ESP32-S3",
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-2/firmware.ota.bin",
-        "md5": "d03071ca985372ba8c8b63580f97eef7",
-        "summary": "Hardening: never downgrade, RAM fix, radar Bluetooth off, faster Wi-Fi, factory Self Test",
+        "md5": "24b2a911894959dd7da6dc668a761782",
+        "summary": "Radar Bluetooth (HLK app) toggle with 30 min auto-off; hardening from 1.3.2",
         "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-2"
       },
       "parts": [
