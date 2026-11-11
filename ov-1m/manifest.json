@@ -5,7 +5,7 @@
   "new_install_prompt_erase": false,
   "builds": [
     {
-      "chipFamily": "ESP32-S3",
+      "chipFamily": "ESP32-C6",
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-1m/firmware.ota.bin",
         "md5": "f4a1e69ed9b956abb945f25c07e59968",
