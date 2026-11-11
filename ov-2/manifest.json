@@ -1,6 +1,6 @@
 {
   "name": "Kinhaus Room Node OV-2 voice (ESP32-S3)",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,8 +8,8 @@
       "chipFamily": "ESP32-S3",
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-2/firmware.ota.bin",
-        "md5": "92c9392ba3cd58f0317e4c5db6d5ec1a",
-        "summary": "Encrypted connection: Home Assistant gives each node its own key; radar unit fixes for HA 2027.5",
+        "md5": "21f2672e27e79244cd538f33285907d5",
+        "summary": "Update guard for custom builds; battery reads 'no cell' on a floating pin; Self Test passes bare boards",
         "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-2"
       },
       "parts": [
