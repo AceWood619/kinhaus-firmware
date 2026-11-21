@@ -9,7 +9,7 @@
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-2m/firmware.ota.bin",
         "md5": "21fc5e219e866ba9e5df7e5ef9185192",
-        "summary": "Encrypted connection: Home Assistant gives each node its own key; radar unit fixes for HA 2027.5",
+        "summary": "Fixes and improvements",
         "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-2m"
       },
       "parts": [

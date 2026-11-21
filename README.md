@@ -4,15 +4,17 @@ Update site for Kinhaus room nodes. Nodes check `<model>/manifest.json` here eve
 
 Status: prototype firmware for Kinhaus development boards (Phase 0). Not a retail product and not FCC-certified.
 
+Release notes here stay short on purpose ("Fixes and improvements"). Detailed change notes are kept privately.
+
 | Model | Channel | Version | Notes |
 |---|---|---|---|
-| ov-1 | stable | 1.2.3 | Update guard for custom builds; battery reads 'no cell' on a floating pin; Self Test passes bare boards |
-| ov-2 | stable | 1.4.2 | Update guard for custom builds; battery reads 'no cell' on a floating pin; Self Test passes bare boards |
-| ov-1m | stable | 1.2.3 | Update guard for custom builds; battery reads 'no cell' on a floating pin; Self Test passes bare boards |
-| ov-2m | stable | 1.4.1 | Encrypted connection: Home Assistant gives each node its own key; radar unit fixes for HA 2027.5 |
-| ov-2m | beta | 1.5.0-beta6 | 1.5.0-beta6: beta5 + S2 signed mesh beacons (bench test build) |
-| ov-2m-ld2420 | stable | 1.2.2 | Update guard for custom builds; battery reads 'no cell' on a floating pin; Self Test passes bare boards |
-| ov-dk1 | stable | 1.2.2 | Update guard for custom builds; battery reads 'no cell' on a floating pin; Self Test passes bare boards |
+| ov-1 | stable | 1.2.3 | Fixes and improvements |
+| ov-2 | stable | 1.4.2 | Fixes and improvements |
+| ov-1m | stable | 1.2.3 | Fixes and improvements |
+| ov-2m | stable | 1.4.1 | Fixes and improvements |
+| ov-2m | beta | 1.5.0-beta6 | Fixes and improvements |
+| ov-2m-ld2420 | stable | 1.2.2 | Fixes and improvements |
+| ov-dk1 | stable | 1.2.2 | Fixes and improvements |
 
 ## Flash a blank board
 

@@ -9,7 +9,7 @@
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-2m/beta/firmware.ota.bin",
         "md5": "08f2e8d2e7fde5f459108ebf2b403045",
-        "summary": "1.5.0-beta6: beta5 + S2 signed mesh beacons (bench test build)",
+        "summary": "Fixes and improvements",
         "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-2m"
       },
       "parts": [

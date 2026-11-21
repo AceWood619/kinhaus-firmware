@@ -9,7 +9,7 @@
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-2/firmware.ota.bin",
         "md5": "21f2672e27e79244cd538f33285907d5",
-        "summary": "Update guard for custom builds; battery reads 'no cell' on a floating pin; Self Test passes bare boards",
+        "summary": "Fixes and improvements",
         "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-2"
       },
       "parts": [
