@@ -1,0 +1,23 @@
+{
+  "name": "Kinhaus Room Node OV-2 voice (ESP32-S3)",
+  "version": "1.4.4-beta1",
+  "home_assistant_domain": "esphome",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "ota": {
+        "path": "https://acewood619.github.io/kinhaus-firmware/ov-2/beta/firmware.ota.bin",
+        "md5": "c24a248e0205e1759448c50b172c3821",
+        "summary": "OV-2 1.4.4-beta1: ambient halo on the node, parking-sensor presence light, green status, game mode sounds, play_sound action, debug log level",
+        "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-2"
+      },
+      "parts": [
+        {
+          "path": "https://acewood619.github.io/kinhaus-firmware/ov-2/beta/firmware.factory.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
