@@ -1,6 +1,6 @@
 {
   "name": "Kinhaus Room Node OV-2 voice (ESP32-S3)",
-  "version": "1.4.4-beta2",
+  "version": "1.4.4-beta3",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,8 +8,8 @@
       "chipFamily": "ESP32-S3",
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-2/beta/firmware.ota.bin",
-        "md5": "ba92370c1e17820db6280bde4ca30b48",
-        "summary": "Recovers by itself if the router drops: reboots after 10 minutes without Wi-Fi.",
+        "md5": "ed17508e62864d58023d4725d68707be",
+        "summary": "Recovers by itself from network drops: reboots after 10 min without Wi-Fi, or 30 min with Wi-Fi but no Home Assistant.",
         "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-2"
       },
       "parts": [
