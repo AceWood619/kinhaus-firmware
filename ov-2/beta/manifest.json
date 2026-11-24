@@ -1,6 +1,6 @@
 {
   "name": "Kinhaus Room Node OV-2 voice (ESP32-S3)",
-  "version": "1.4.5-beta4",
+  "version": "1.4.5-beta5",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,8 +8,8 @@
       "chipFamily": "ESP32-S3",
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-2/beta/firmware.ota.bin",
-        "md5": "e9cb78c60ba125ac6799331ba14c6004",
-        "summary": "Health + power: 'Last crash' shows what the node was doing before a crash or brownout; 'Power' shows Plugged in / Charging / Charged / On battery / Battery saver / Weak charger; battery % no longer reads high while charging; the halo breathes green when plugged in and amber when unplugged; safer empty-battery shutdown (no brownout reboot loops); 'Room comfort'. Fixes beta3's startup checks not running (Last crash, brownout guard). Includes the battery saver and pinhole reset from beta2.",
+        "md5": "be0effa3285480dddf0e7f74ac31729c",
+        "summary": "New: an Alarm stored on the node (Alarm + Alarm time) that rings from the node's own clock even if Home Assistant is down, and a 'Battery' setting (Fitted / No battery fitted) so a USB-only node stops showing a fake 100 %. Plus beta3-4: Last crash, Power status, honest battery %, plug/unplug halo cue, safer empty-battery shutdown, Room comfort, battery saver, pinhole reset.",
         "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-2"
       },
       "parts": [
