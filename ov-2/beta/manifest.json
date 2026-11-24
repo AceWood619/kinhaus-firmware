@@ -1,6 +1,6 @@
 {
   "name": "Kinhaus Room Node OV-2 voice (ESP32-S3)",
-  "version": "1.4.5-beta2",
+  "version": "1.4.5-beta3",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,8 +8,8 @@
       "chipFamily": "ESP32-S3",
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-2/beta/firmware.ota.bin",
-        "md5": "6154e10eac03c04fd56a36d50eef946d",
-        "summary": "Battery saver: when the battery drops below about 8 % and the node is unplugged, the halo turns off, Bluetooth listening pauses and the speaker is capped so it lasts longer; it ends as soon as USB power is back. Also: pinhole factory reset (press reset 5 times within 10 s).",
+        "md5": "14696ba6cb857dd58c2e835a0abba361",
+        "summary": "Health + power: 'Last crash' shows what the node was doing before a crash or brownout; 'Power' shows Plugged in / Charging / Charged / On battery / Battery saver / Weak charger; battery % no longer reads high while charging; the halo breathes green when plugged in and amber when unplugged; safer empty-battery shutdown (no brownout reboot loops); 'Room comfort'. Includes the battery saver and pinhole reset from beta2.",
         "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-2"
       },
       "parts": [
