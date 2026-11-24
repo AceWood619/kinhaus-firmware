@@ -1,6 +1,6 @@
 {
   "name": "Kinhaus Room Node OV-2M voice (XIAO ESP32-S3, modules)",
-  "version": "1.5.0-beta8",
+  "version": "1.5.0-beta9",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,8 +8,8 @@
       "chipFamily": "ESP32-S3",
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-2m/beta/firmware.ota.bin",
-        "md5": "ea231522479990ba173fdb9251d008a4",
-        "summary": "beta6 + self-recovery: reboots after 10 min without Wi-Fi, or 30 min with Wi-Fi but no Home Assistant.",
+        "md5": "8e71f4a7e8a0aec6301061a8a05091c2",
+        "summary": "Stability: rides out slow network/TLS moments instead of a watchdog reset (5 s -> 15 s), and a new 'Last crash' sensor shows what the node was doing before any crash. Includes beta8's Wi-Fi/API self-recovery and signed mesh beacons.",
         "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-2m"
       },
       "parts": [
