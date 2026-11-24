@@ -1,6 +1,6 @@
 {
   "name": "Kinhaus Room Node OV-2 voice (ESP32-S3)",
-  "version": "1.4.5-beta1",
+  "version": "1.4.5-beta2",
   "home_assistant_domain": "esphome",
   "new_install_prompt_erase": false,
   "builds": [
@@ -8,8 +8,8 @@
       "chipFamily": "ESP32-S3",
       "ota": {
         "path": "https://acewood619.github.io/kinhaus-firmware/ov-2/beta/firmware.ota.bin",
-        "md5": "9a0765f961c78fb28bd28ebe9e228cc0",
-        "summary": "Bluetooth room tracking (off until you turn it on): the node listens for phones so Home Assistant can tell which room people are in. Pauses whenever the node plays audio or Jarvis is talking.",
+        "md5": "6154e10eac03c04fd56a36d50eef946d",
+        "summary": "Battery saver: when the battery drops below about 8 % and the node is unplugged, the halo turns off, Bluetooth listening pauses and the speaker is capped so it lasts longer; it ends as soon as USB power is back. Also: pinhole factory reset (press reset 5 times within 10 s).",
         "release_url": "https://acewood619.github.io/kinhaus-firmware/#ov-2"
       },
       "parts": [
